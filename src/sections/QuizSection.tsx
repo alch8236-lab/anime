@@ -57,7 +57,7 @@ export function QuizSection() {
     <section id="quiz" className="relative overflow-hidden bg-[#08080b] py-28 md:py-36" aria-label="Квиз">
       {/* Фоновый арт */}
       <img
-        src="/assets/hero-city.png"
+        src="/anime/assets/hero-city.png"
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-[0.07]"

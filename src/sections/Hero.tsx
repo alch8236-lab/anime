@@ -20,20 +20,20 @@ interface FloatingArt {
 }
 
 const CHAR_POOL = [
-  '/assets/char-sword.png',
-  '/assets/char-pilot.png',
-  '/assets/char-witch.png',
-  '/assets/char-mascot.png',
-  '/assets/char-idol.png',
+  '/anime/assets/char-sword.png',
+  '/anime/assets/char-pilot.png',
+  '/anime/assets/char-witch.png',
+  '/anime/assets/char-mascot.png',
+  '/anime/assets/char-idol.png',
 ];
 
 const POSTER_POOL = [
-  '/assets/poster-cyber.png',
-  '/assets/poster-fantasy.png',
-  '/assets/poster-slice.png',
-  '/assets/poster-mecha.png',
-  '/assets/poster-dark.png',
-  '/assets/poster-sport.png',
+  '/anime/assets/poster-cyber.png',
+  '/anime/assets/poster-fantasy.png',
+  '/anime/assets/poster-slice.png',
+  '/anime/assets/poster-mecha.png',
+  '/anime/assets/poster-dark.png',
+  '/anime/assets/poster-sport.png',
 ];
 
 let artCounter = 0;

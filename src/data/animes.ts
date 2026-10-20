@@ -7,14 +7,14 @@ import type { Anime } from '@/types';
  * карточка рендерит генеративный фон на чистом CSS/Canvas.
  */
 export const ASSET_POSTERS: Record<string, string> = {
-  cyber: '/assets/poster-cyber.png',
-  fantasy: '/assets/poster-fantasy.png',
-  slice: '/assets/poster-slice.png',
-  mecha: '/assets/poster-mecha.png',
-  dark: '/assets/poster-dark.png',
-  sport: '/assets/poster-sport.png',
-  street: '/assets/street-vertical.png',
-  hero: '/assets/hero-city.png',
+  cyber: '/anime/assets/poster-cyber.png',
+  fantasy: '/anime/assets/poster-fantasy.png',
+  slice: '/anime/assets/poster-slice.png',
+  mecha: '/anime/assets/poster-mecha.png',
+  dark: '/anime/assets/poster-dark.png',
+  sport: '/anime/assets/poster-sport.png',
+  street: '/anime/assets/street-vertical.png',
+  hero: '/anime/assets/hero-city.png',
 };
 
 export const animes: Anime[] = [

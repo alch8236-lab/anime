@@ -7,12 +7,12 @@ import { ErrorBoundary } from '@/components/ErrorBoundary';
 import * as THREE from 'three';
 
 const POSTER_SET: { key: string; title: string; year: string; genre: string; src: string }[] = [
-  { key: 'cyber', title: 'Неоновый город', year: '1988 → сейчас', genre: 'Киберпанк', src: '/assets/poster-cyber.png' },
-  { key: 'fantasy', title: 'Золотая долина', year: 'Эпический жанр', genre: 'Фэнтези', src: '/assets/poster-fantasy.png' },
-  { key: 'slice', title: 'Апрельская дорога', year: 'Повседневность', genre: 'Иёсикэй', src: '/assets/poster-slice.png' },
-  { key: 'mecha', title: 'Ангар №7', year: 'Жанр меха', genre: 'Меха', src: '/assets/poster-mecha.png' },
-  { key: 'dark', title: 'Лес тысячи фонарей', year: 'Тёмное фэнтези', genre: 'Мистика', src: '/assets/poster-dark.png' },
-  { key: 'sport', title: 'Последняя подача', year: 'Спорт', genre: 'Спортивное', src: '/assets/poster-sport.png' },
+  { key: 'cyber', title: 'Неоновый город', year: '1988 → сейчас', genre: 'Киберпанк', src: '/anime/assets/poster-cyber.png' },
+  { key: 'fantasy', title: 'Золотая долина', year: 'Эпический жанр', genre: 'Фэнтези', src: '/anime/assets/poster-fantasy.png' },
+  { key: 'slice', title: 'Апрельская дорога', year: 'Повседневность', genre: 'Иёсикэй', src: '/anime/assets/poster-slice.png' },
+  { key: 'mecha', title: 'Ангар №7', year: 'Жанр меха', genre: 'Меха', src: '/anime/assets/poster-mecha.png' },
+  { key: 'dark', title: 'Лес тысячи фонарей', year: 'Тёмное фэнтези', genre: 'Мистика', src: '/anime/assets/poster-dark.png' },
+  { key: 'sport', title: 'Последняя подача', year: 'Спорт', genre: 'Спортивное', src: '/anime/assets/poster-sport.png' },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -189,7 +189,7 @@ export function PosterSpheres() {
     <div className="relative h-[70vh] w-full md:h-[80vh]" data-cursor="hover">
       {/* Подложка-постер до первого кадра */}
       <img
-        src="/assets/street-vertical.png"
+        src="/anime/assets/street-vertical.png"
         alt=""
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-20"
         style={{

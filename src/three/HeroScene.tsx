@@ -65,7 +65,7 @@ function NeonParticles({ count = 420 }: { count?: number }) {
 /* Меха-бюст: сгенерированная GLB-модель                               */
 /* ------------------------------------------------------------------ */
 function MechaBust() {
-  const { scene } = useGLTF('/assets/mecha-bust-low.glb');
+  const { scene } = useGLTF('/anime/assets/mecha-bust-low.glb');
   const group = useRef<THREE.Group>(null);
 
   const cloned = useMemo(() => {
@@ -171,7 +171,7 @@ export function HeroScene() {
     <div className="absolute inset-0" aria-hidden="true">
       {/* Постер под канвасом: никогда не чёрный экран */}
       <img
-        src="/assets/hero-city.png"
+        src="/anime/assets/hero-city.png"
         alt=""
         className="absolute inset-0 h-full w-full object-cover opacity-35"
         style={{
@@ -194,4 +194,4 @@ export function HeroScene() {
   );
 }
 
-useGLTF.preload('/assets/mecha-bust-low.glb');
+useGLTF.preload('/anime/assets/mecha-bust-low.glb');

@@ -85,7 +85,7 @@ export function Manifesto() {
         <div className="relative min-h-[420px] overflow-hidden border border-white/10">
           <img
             data-manifest-img
-            src="/assets/street-vertical.png"
+            src="/anime/assets/street-vertical.png"
             alt="Аниме-арт: ночная японская улочка с фонарями"
             className="absolute inset-0 h-[124%] w-full object-cover"
           />
